@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"*.ini": "lua",
+			"*.j2": "jass",
+			"*.zn": "zn",
+			"*.j": "c"
+		}
+	}
 }
