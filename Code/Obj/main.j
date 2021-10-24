@@ -1,0 +1,14 @@
+// 单位库
+#include "unit.j"
+// 技能库
+#include "ability.j"
+// 物品库
+#include "item.j"
+// 科技库
+#include "upgrade.j"
+// 魔法效果库
+#include "buff.j"
+// 可破坏物库
+#include "destructable.j"
+// 自定义值
+#include "userdata.j"

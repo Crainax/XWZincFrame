@@ -1,0 +1,65 @@
+Frame "SLIDER" "ScrollBarTemplate_H" {
+    SliderLayoutHorizontal,
+
+    ControlBackdrop "ScrollBarTemplate_HBackdrop",
+    Frame "BACKDROP" "ScrollBarTemplate_HBackdrop" {
+        BackdropTileBackground,
+        BackdropBackground  "UI\Widgets\Glues\GlueScreen-Slider-BackdropBackground.blp",
+        BackdropCornerFlags "UL|UR|BL|BR|T|L|B|R",
+        BackdropCornerSize  0.008,
+        BackdropBackgroundInsets 0.004 0.004 0.004 0.004,
+        BackdropEdgeFile  "UI\Widgets\Glues\GlueScreen-Slider-BackdropBorder.blp",
+        BackdropBlendAll,
+    }
+
+    SliderThumbButtonFrame "ScrollBarTemplate_HButton",
+    Frame "BUTTON" "ScrollBarTemplate_HButton" {
+        Width 0.016,
+        Height 0.016,
+
+        ControlBackdrop "ScrollBarTemplate_HButtonBackdrop",
+        Frame "BACKDROP" "ScrollBarTemplate_HButtonBackdrop" {
+            BackdropBlendAll,
+            BackdropBackground  "UI\Widgets\Glues\SinglePlayerSkirmish-ScrollBarKnob.blp",
+        }
+
+        ControlDisabledBackdrop "ScrollBarTemplate_HButtonDisabledBackdrop",
+        Frame "BACKDROP" "ScrollBarTemplate_HButtonDisabledBackdrop" {
+            BackdropBlendAll,
+            BackdropBackground  "UI\Widgets\Glues\SinglePlayerSkirmish-ScrollBarKnobDisabled.blp",
+        }
+    }
+}
+
+Frame "SLIDER" "ScrollBarTemplate_V" {
+    SliderLayoutVertical,
+
+    ControlBackdrop "ScrollBarTemplate_VBackdrop",
+    Frame "BACKDROP" "ScrollBarTemplate_VBackdrop" {
+        BackdropTileBackground,
+        BackdropBackground  "UI\Widgets\Glues\GlueScreen-Slider-BackdropBackground.blp",
+        BackdropCornerFlags "UL|UR|BL|BR|T|L|B|R",
+        BackdropCornerSize  0.008,
+        BackdropBackgroundInsets 0.004 0.004 0.004 0.004,
+        BackdropEdgeFile  "UI\Widgets\Glues\GlueScreen-Slider-BackdropBorder.blp",
+        BackdropBlendAll,
+    }
+
+    SliderThumbButtonFrame "ScrollBarTemplate_VButton",
+    Frame "BUTTON" "ScrollBarTemplate_VButton" {
+        Width 0.016,
+        Height 0.016,
+
+        ControlBackdrop "ScrollBarTemplate_VButtonBackdrop",
+        Frame "BACKDROP" "ScrollBarTemplate_VButtonBackdrop" {
+            BackdropBlendAll,
+            BackdropBackground  "UI\Widgets\Glues\SinglePlayerSkirmish-ScrollBarKnob.blp",
+        }
+
+        ControlDisabledBackdrop "ScrollBarTemplate_VButtonDisabledBackdrop",
+        Frame "BACKDROP" "ScrollBarTemplate_VButtonDisabledBackdrop" {
+            BackdropBlendAll,
+            BackdropBackground  "UI\Widgets\Glues\SinglePlayerSkirmish-ScrollBarKnobDisabled.blp",
+        }
+    }
+}

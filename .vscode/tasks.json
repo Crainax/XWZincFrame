@@ -1,0 +1,42 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "SLK",
+            "type": "shell",
+            "command": "E:\\魔兽争霸工具\\w3x2lni_zhCN_v2.5.2\\w2l.exe",
+            "args": [
+                "slk",
+                "./test.w3x"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": true,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "RUN_SLK",
+            "type": "process",
+            "command": "E:\\魔兽争霸工具\\YDWE1.31.8正式版\\bin\\YDWEConfig.exe",
+            "args": [
+                "-launchwar3",
+                "-loadfile",
+                "./test_slk.w3x"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
