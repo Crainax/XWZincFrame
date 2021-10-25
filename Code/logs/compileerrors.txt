@@ -1,0 +1,5 @@
+logs\currentmapscript.j
+JASSHelper - Step 1 (textmacros, libraries, scopes) (scripts were imported)
+Line 735: Syntax Error (Unexpected: "<"?
+Line 576: (From this instance)
+1
